@@ -1,0 +1,54 @@
+.dropdown{
+    /* position: relative; */
+}
+
+.icon-location{
+        display: flex;
+        background-color: rgb(149, 185, 173);
+        border: none;
+        border-radius: 4px;
+        padding: 4px; 
+        color: black;
+}
+
+.icon-location:hover{
+    background-color: rgb(93, 191, 224);
+    color: white;
+}
+
+.text-icon{
+    text-align: left;
+}
+
+.text-icon1{
+   
+    display: flex;
+}
+
+.dropdown-icon{
+    margin-right: 10px;
+    position: relative;
+    align-self: center;
+    color: rgb(42, 145, 235);
+}
+
+.dropdown-icon1{
+    margin-left: 117px;
+    margin-top: -20px;
+}
+
+.city-items{
+    position: absolute;
+    background: white;
+    padding: 14px;
+    box-shadow: 2px 2px 4px;
+}
+
+.city-list{
+    cursor: pointer;
+    background-color: white;
+}
+
+.city-list:hover{
+    background-color: rgb(72, 126, 228);
+}

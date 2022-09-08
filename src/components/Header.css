@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.container h3{
+    margin: 0;
+    padding: 0;
+}
+
+.logo-txt{
+    color: rgb(38, 106, 206);
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.logo{
+    padding: 0;
+    margin-top: 0;
+    height: 40px;
+    width: 50px;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 89px;
+}
+
+.link{
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 102px;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    background-color: rgb(218, 215, 215);
+}
+
+.log-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+}
+
+.link2{
+    padding: 3px 4px 5px 4px;
+    border-radius: 10px;
+    margin-top: 4px;
+    margin-right: 5px;
+    margin-left: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.link2:hover{
+    background-color:  rgb(38, 106, 206);
+    color: white;
+}
